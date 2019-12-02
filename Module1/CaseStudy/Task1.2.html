@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let nameCustoner=prompt("nhập tên người dùng");
+    let proofThePeople=prompt("nhập số CMND");
+    let dateOfBirthday=prompt("nhập ngày tháng năm sinh dd/mm/yy");
+    let email=prompt("nhập email");
+    let address=prompt(" nhập địa chỉ");
+    let custonerType=prompt("nhập loại khách hàng");
+    let discount=prompt("nhập giảm giá");
+    let dateOfHire=prompt(" số ngày thuê");
+    let typeOfService=prompt("nhập loại dịch vụ");
+    let roomTypeRented=prompt(" nhập loại phòng thuê");
+    let totalMoney= 500* Number.parseInt(dateOfHire) * (1- Number.parseFloat(discount)/100);
+    alert("Information customer: \n"+
+          "Name :"+ nameCustoner +
+           "\nidcard:"+proofThePeople +
+            "\nbirthday"+dateOfBirthday +
+            "\nđịa chỉ:"+address +
+            "\ngiam gia :"+discount+
+            "\nngay thuê :"+ dateOfHire+
+            "\nphong thuê :"+ roomTypeRented+
+            "\ntatal money:"+ totalMoney
+    );
+
+</script>
+</body>
+</html>

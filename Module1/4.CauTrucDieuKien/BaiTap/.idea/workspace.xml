@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5879e898-5176-42e0-9efb-691740fbad02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../3.BienKieuDuLieuToanTu/BaiTap/DoiTien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../3.BienKieuDuLieuToanTu/BaiTap/UngDungMayTinh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BMI.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChiaHet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NhapSo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhuongTrinh1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhuongTrinh2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SoSanhSo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuoiHocSinh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XepLucHocLuc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThucHanh/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThucHanh/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThucHanh/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThucHanh/DiChuyênBong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThucHanh/NhapMatKhau.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThucHanh/Switch2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThucHanh/a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThucHanh/cause.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThucHanh/switch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3.BienKieuDuLieuToanTu/ThucHanh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.BienKieuDuLieuToanTu/ThucHanh/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XepLucHocLuc.html" beforeDir="false" afterPath="$PROJECT_DIR$/XepLucHocLuc.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -82,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/XepLucHocLuc.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="264">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -143,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -170,6 +151,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -199,15 +181,15 @@
       <updated>1575104778665</updated>
       <workItem from="1575104780275" duration="7893000" />
       <workItem from="1575209621617" duration="2377000" />
-      <workItem from="1575248780207" duration="1061000" />
+      <workItem from="1575248780207" duration="2579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11331000" />
+    <option name="totallyTimeSpent" value="12849000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="1" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24886191" />
@@ -285,8 +267,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/XepLucHocLuc.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="264">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
