@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="abc"></p>
+<script>
+    let nameCustoner="Nguyễn Minh Thuận";
+    let proofThePeople="201641706";
+    let dateOfBirthday="16/08/1992";
+    let email="thuanminhnguyen16081992@gmail.com";
+    let address="Đà Nẵng";
+    let custonerType="Diamond";
+    let discount="10%";
+    let dateOfHire="10";
+    let typeOfService="Business";
+    let roomTypeRented="villa";
+    let totalMoney= 500* dateOfHire * (1- discount/100);
+    let choose=prompt(
+        "1. show InFormation Of Custoner. \n"+
+        "2. Edit InFormation Of Custoner. \n"+
+        "3. show InFormation Of Custoner. \n"
+    );
+    switch (choose) {
+        case "1":
+            alert(
+                "Information customer: \n"+
+                "Name :"+ nameCustoner +
+                "\nidcard:"+proofThePeople +
+                "\nbirthday"+dateOfBirthday +
+                "\nđịa chỉ:"+address +
+                "\ngiam gia :"+discount+
+                "\nngay thuê :"+ dateOfHire+
+                "\nphong thuê :"+ roomTypeRented+
+                "\ntatal money:"+ totalMoney
+            );
+            break;
+        case"2":
+            let chooseEdit=prompt(
+                "choose Information Customer You"
+            )
+
+    }
+
+</script>
+</body>
+</html>

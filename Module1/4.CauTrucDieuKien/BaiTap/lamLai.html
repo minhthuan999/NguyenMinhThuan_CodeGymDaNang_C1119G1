@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="so" type="text" value=""><br>
+<input type="button"onclick="nhap('1')"value="1">
+<input type="button"onclick="nhap('2')"value="2">
+<input type="button"onclick="nhap('3')"value="3">
+<input type="button"onclick="nhap('+')"value="+"><br>
+<input type="button"onclick="nhap('4')"value="4">
+<input type="button"onclick="nhap('5')"value="5">
+<input type="button"onclick="nhap('6')"value="6">
+<input type="button"onclick="nhap('-')"value="-"><br>
+<input type="button"onclick="nhap('7')"value="7">
+<input type="button"onclick="nhap('8')"value="8">
+<input type="button"onclick="nhap('9')"value="9">
+<input type="button"onclick="nhap('*')"value="*"><br>
+<input type="button"onclick="xoa('c')"value="c">
+<input type="button"onclick="nhap('0')"value="0">
+<input type="button"onclick="tinh('=')"value="=">
+<input type="button"onclick="nhap('/')"value="/">
+<div id="total"></div>
+<script>
+    let so=document.getElementById("so");
+    let total=document.getElementById("total");
+    function nhap(val) {
+        so.value += val;
+        so.innerHTML= so.value;
+
+    }
+    function xoa() {
+        so.value="";
+
+    }
+    function tinh() {
+        so.value=eval(so.value);
+
+    }
+</script>
+</body>
+</html>

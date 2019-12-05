@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Tien <input id="tien">
+VND <select id="chonVN">
+    <option value="1">VN</option>
+    <option value="2">USD</option>
+</select>
+USD <select id="chonUSD">
+    <option value="1">VN</option>
+    <option value="2">USD</option>
+</select>
+<p id="ketQua"></p>
+<button onclick="chuyenTien()">Chuyen doi tien</button>
+<script>
+    function chuyenTien() {
+        var tien = document.getElementById("tien").value;
+        var chonVN = document.getElementById("chonVN").value;
+        var chonUSD = document.getElementById("chonUSD").value;
+        var ketQua = document.getElementById("ketQua");
+        if (chonVN == "1" && chonUSD == "2") {
+            ketQua.innerHTML = tien / 23000;
+        } else if(chonVN == "2" && chonUSD == "1") {
+            ketQua.innerHTML = tien * 23000;
+        }
+    }
+</script>
+
+    </body>
+</html>

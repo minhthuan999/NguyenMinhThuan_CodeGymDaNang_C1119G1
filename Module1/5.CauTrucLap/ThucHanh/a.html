@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button"value="bảng cửu chương" onclick="Express()"><br>
+<div id="output"></div>
+<script>
+
+    //temp = document.getElementById("output");
+
+    function Express() {
+        //temp.value = 'ok';
+        let temp="";
+        for (let i = 1; i <= 10; i++)
+        {
+            for (let j = 1; j < 10; j++)
+            {
+                temp += (j + "X" + i + "=" + (i * j)
+                );
+            }
+            temp += "<br/>"
+        }
+        document.getElementById("output").innerHTML=temp;
+    }
+
+</script>
+</body>
+</html>
